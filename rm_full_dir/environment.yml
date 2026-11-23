@@ -1,0 +1,21 @@
+name: microstructure-mri
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - matplotlib
+  - emcee
+  - arviz
+  - corner
+  - nibabel
+  - fslpy
+  - pytest
+  - jupyterlab
+  - tqdm
+  - conda-lock
+  - pip
+  - pip:
+      - -e .
+
